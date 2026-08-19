@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform-bucket" {
-    bucket = "our-terraform-tfstate-file-bucket"
+    bucket = "project2-terraform-kubernetes-bucket"
     tags = {
         Name = "first-bucket"
         Env = "Dev"
